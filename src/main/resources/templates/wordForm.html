@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Game</title>
+</head>
+<body>
+<form action="/word" method="post">
+    <label for="level">Select Level:</label>
+    <select name="selectedLevel" id="level">
+        <option th:each="level : ${levels}" th:value="${level}" th:text="${level}"></option>
+    </select>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

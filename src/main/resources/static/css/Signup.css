@@ -1,0 +1,20 @@
+#mainContainer{
+
+    width: 40rem;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 10px;
+
+}
+#form input {
+    width: 60%;
+}
+
+.Header{
+    color: blue;
+}
+.loginBtn{
+    color: red!important;
+}
+
+
